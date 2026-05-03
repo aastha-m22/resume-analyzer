@@ -133,7 +133,7 @@ The app checks `GROQ_API_KEY` first; if not found, falls back to `OPENAI_API_KEY
 ---
 
 ##  Screenshots
-### 🔹 Upload Resume
+###  Upload Resume
 ![Upload UI](assets1/resumehome.png)
 
 
