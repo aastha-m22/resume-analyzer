@@ -1,4 +1,4 @@
-# 📄 Resume Analyzer AI
+#  Resume Analyzer AI
 
 > An intelligent resume analysis tool built with **spaCy**, **scikit-learn**, and **LLM APIs** (Groq / OpenAI). Upload a PDF resume, paste a job description, and get a detailed match score + AI-powered improvement suggestions — all in a clean Streamlit web UI.
 
@@ -9,7 +9,7 @@
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |---|---|
@@ -37,7 +37,7 @@ resume-analyzer/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone & enter the project
 ```bash
@@ -68,7 +68,7 @@ cp .env.example .env
 # Edit .env and add your GROQ_API_KEY or OPENAI_API_KEY
 ```
 
-> 💡 **Groq is recommended** — it's free, fast, and works with the same OpenAI SDK.
+>  **Groq is recommended** — it's free, fast, and works with the same OpenAI SDK.
 > Get a free key at [console.groq.com](https://console.groq.com).
 
 ### 6. Run the app
@@ -80,7 +80,7 @@ Open your browser to `http://localhost:8501` 🎉
 
 ---
 
-## 🔐 Environment Variables
+##  Environment Variables
 
 Create a `.env` file in the project root:
 
@@ -94,11 +94,11 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 The app checks `GROQ_API_KEY` first; if not found, falls back to `OPENAI_API_KEY`.
 
-> ⚠️ The app still works without an API key — NLP extraction and match scoring are fully offline. Only the AI feedback section requires a key.
+>  The app still works without an API key — NLP extraction and match scoring are fully offline. Only the AI feedback section requires a key.
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ### Step 1 — PDF Parsing
 `PyMuPDF` (`fitz`) extracts clean text from each page of the uploaded PDF.
@@ -119,7 +119,7 @@ The app checks `GROQ_API_KEY` first; if not found, falls back to `OPENAI_API_KEY
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer | Library |
 |---|---|
@@ -132,9 +132,11 @@ The app checks `GROQ_API_KEY` first; if not found, falls back to `OPENAI_API_KEY
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
+### 🔹 Upload Resume
+![Upload UI](assets1/resumehome.png)
 
-> _Upload resume → Paste JD → Click Analyze → Instant results_
+
 
 The UI includes:
 - Hero header with gradient background
@@ -146,7 +148,7 @@ The UI includes:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repo
 2. Create a feature branch (`git checkout -b feature/xyz`)
@@ -155,6 +157,6 @@ The UI includes:
 
 ---
 
-## 📄 License
+##  License
 
 MIT © 2024 — Free to use, modify, and distribute.
