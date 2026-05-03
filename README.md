@@ -13,12 +13,12 @@
 
 | Feature | Description |
 |---|---|
-| 📤 PDF Upload | Clean text extraction via PyMuPDF |
-| 🧠 NLP Extraction | Skills, education, experience via spaCy + regex |
-| 📊 Match Score | TF-IDF cosine similarity between resume & JD |
-| 🔑 Keyword Gap | Identifies JD keywords missing from your resume |
-| 🤖 AI Feedback | Strengths, missing skills, suggestions via Groq/OpenAI |
-| 🎨 Modern UI | Dark-themed, responsive Streamlit interface |
+|  PDF Upload | Clean text extraction via PyMuPDF |
+|  NLP Extraction | Skills, education, experience via spaCy + regex |
+| Match Score | TF-IDF cosine similarity between resume & JD |
+|  Keyword Gap | Identifies JD keywords missing from your resume |
+|  AI Feedback | Strengths, missing skills, suggestions via Groq/OpenAI |
+|  Modern UI | Dark-themed, responsive Streamlit interface |
 
 ---
 
